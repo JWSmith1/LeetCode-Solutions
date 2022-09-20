@@ -15,6 +15,12 @@
  */
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
+        // Inorder Algo
+        // set up start node to be the root
+        // while current node is not null or stack is not empty
+            // keep pushing left node onto stack
+            // pop and visit left-node from stack
+            // set current to the right child of popped node
         ArrayList<Integer> answer = new ArrayList<>();
         Stack<TreeNode> tracker = new Stack<>();
         
